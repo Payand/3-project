@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
 }
 
-/* navbvar  */
+/* navbvar starts */
 
 nav {
   position: sticky;
@@ -48,7 +48,10 @@ nav ul li a:hover {
   border-radius: 20px;
   transition: 0.7s;
 }
-/* head content */
+
+/* navbar ends  */
+
+/* header starts */
 .head-content {
   position: absolute;
   bottom: 35vh;
@@ -58,8 +61,9 @@ nav ul li a:hover {
   font-weight: 300;
   text-transform: uppercase;
 }
+/* header ends  */
 
-/* first div content */
+/* first div content starts */
 
 .box-img-travel {
   position: relative;
@@ -77,8 +81,9 @@ nav ul li a:hover {
   background-position: 10% 50%;
   color: #fefefe;
 }
+/* first div ends  */
 
-/* Second div  content */
+/* Second div  content  starts */
 .main-content {
   background-image: url("./img/bg-1.jpg");
   background-position: center;
@@ -170,7 +175,9 @@ div.box:nth-child(7) {
   font-size: 1.5vw;
 }
 
-/* third content */
+/* second div content ends  */
+
+/* third div content starts */
 .travel-img-2 {
   background-image: url("./img/bg-2.jpg");
   background-position: center;
@@ -225,28 +232,9 @@ fieldset input {
   background-color: aliceblue;
 }
 
-.nav-desti-i {
-  background-color: #fbf9f9;
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: 600;
-  font-size: 30px;
-  font-family: "Ink Free";
-  text-decoration: none;
-  text-decoration-color: black;
-}
-i {
-  font-size: 20px;
-  color: #060606;
-  margin-top: 5px;
-  padding-right: 1px;
-}
-.line {
-  background-color: rgb(0, 0, 0);
-  width: 100vw;
-  height: 1px;
-}
+/* third div  content ends  */
 
+/* forth div content starts  */
 .enjoy-travel {
   position: relative;
   background-image: url("./img/bg-3.jpg");
@@ -266,6 +254,11 @@ i {
   top: 40vh;
   text-transform: capitalize;
 }
+
+/* forth div content ends  */
+
+/* about us starts  */
+
 .about-us {
   background-image: url("/img/about.jpg");
   background-position: center;
@@ -294,6 +287,11 @@ i {
   padding-left: 4vw;
   overflow: auto;
 }
+
+/* about us ends  */
+
+/* footer starts  */
+
 footer {
   background-color: rgb(14, 0, 0);
   width: 100vw;
@@ -311,3 +309,4 @@ footer a i {
   font-size: 3vw;
   color: #fbf9f9;
 }
+/* footer ends  */
