@@ -1,0 +1,313 @@
+:root {
+  scroll-behavior: smooth;
+  --nav-background: #f7ebebad;
+  --box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Ink Free";
+  box-sizing: border-box;
+}
+
+/* navbvar  */
+
+nav {
+  position: sticky;
+  font-size: 1.3vw;
+  top: 0px;
+  z-index: 1;
+  margin: 10px auto;
+  direction: rtl;
+  border-radius: 10px;
+  background-color: var(--nav-background);
+  box-shadow: var(--box-shadow);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1vw;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 10px 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+  color: #f7ebeb;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+/* head content */
+.head-content {
+  position: absolute;
+  bottom: 35vh;
+  left: 35vw;
+  font-size: 3vw;
+  font-family: "Ink Free";
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* first div content */
+
+.box-img-travel {
+  position: relative;
+  width: 100vw;
+  height: 66vh;
+  margin-bottom: 0;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0),
+      rgba(15, 1, 1, 0.943)
+    ),
+    url("./img/compass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  color: #fefefe;
+}
+
+/* Second div  content */
+.main-content {
+  background-image: url("./img/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.box {
+  display: inline;
+  float: left;
+  background-color: #f7ebeb;
+  margin-right: 5vw;
+  width: 8vw;
+  height: 16vh;
+  font-weight: 600;
+  border: 1px solid rgb(7, 1, 1);
+  border-radius: 5px;
+  box-shadow: 10px 0px 40px rgba(0, 0, 0, 0.5),
+    40px 40px 40px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: scale(1.2, 1.2);
+}
+
+div.main-content > :first-child {
+  margin-top: 0;
+  background-color: #f7ebeb;
+  font-size: 2vw;
+  font-weight: 600;
+}
+div.first-box-m-r {
+  margin-top: 3vh;
+  margin-left: 4vw;
+  background-image: url("./img/germany.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5vw;
+}
+
+div.box:nth-child(3) {
+  margin-top: 33vh;
+  margin-left: 6vh;
+  background-image: url("./img/dubai.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5vw;
+}
+
+div.box:nth-child(4) {
+  margin-top: 70vh;
+  background-image: url("./img/switzerland.jpg");
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5vw;
+}
+div.box:nth-child(5) {
+  margin-top: 40vh;
+  background-image: url("./img/italy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1.5vw;
+}
+
+div.box:nth-child(6) {
+  margin-top: 4vh;
+  background-image: url("./img/french.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fbf9f9;
+  font-size: 1.5vw;
+}
+
+div.box:nth-child(7) {
+  margin-top: 50vh;
+  background-image: url("./img/spain.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fbf9f9;
+  font-size: 1.5vw;
+}
+
+/* third content */
+.travel-img-2 {
+  background-image: url("./img/bg-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+div.travel-img-2 > :first-child {
+  margin-top: 0;
+  padding-top: 5vh;
+  margin-left: 40vw;
+  font-size: 3vw;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
+
+legend {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.b-cont {
+  float: left;
+  width: 50%;
+}
+.b-cont p {
+  margin-top: 10vh;
+  margin-left: 40%;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.b-cont fieldset {
+  width: 85%;
+  margin-left: 3vw;
+}
+
+fieldset input {
+  font-size: 1.5rem;
+  margin-left: 1vw;
+  width: 85%;
+  border-radius: 5px;
+}
+
+.submit-button {
+  margin-top: 1vw;
+  margin-left: -20vw;
+  width: 40vw;
+  background-color: aliceblue;
+}
+
+.nav-desti-i {
+  background-color: #fbf9f9;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Ink Free";
+  text-decoration: none;
+  text-decoration-color: black;
+}
+i {
+  font-size: 20px;
+  color: #060606;
+  margin-top: 5px;
+  padding-right: 1px;
+}
+.line {
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  height: 1px;
+}
+
+.enjoy-travel {
+  position: relative;
+  background-image: url("./img/bg-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.text-enjoy {
+  position: absolute;
+  color: white;
+  font-size: 6vw;
+  margin: 0;
+  left: 26vw;
+  top: 40vh;
+  text-transform: capitalize;
+}
+.about-us {
+  background-image: url("/img/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 40vh;
+  text-align: justify;
+}
+
+.about-us h3,
+.about-us p {
+  color: #fbf9f9;
+  font-size: 1.5vw;
+  margin-top: 0;
+}
+.about-us h3 {
+  padding-top: 1vw;
+  padding-left: 2vw;
+  text-transform: capitalize;
+}
+.about-us p {
+  width: 90vw;
+  height: 37vh;
+  padding-left: 4vw;
+  overflow: auto;
+}
+footer {
+  background-color: rgb(14, 0, 0);
+  width: 100vw;
+  height: 20vh;
+  text-decoration: none;
+  padding-top: 7vh;
+}
+
+footer a {
+  text-decoration: none;
+  padding-left: 15vw;
+}
+
+footer a i {
+  font-size: 3vw;
+  color: #fbf9f9;
+}
